@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySeleniumSuite" parallel="tests" thread-count="2">
+
+    <test name="AlertsTest">
+        <classes>
+            <class name="Alerts.AlertTests"/>
+        </classes>
+    </test>
+
+    <test name="Forms Test">
+        <classes>
+            <class name="Form.FormTests"/>
+        </classes>
+    </test>
+
+</suite>
