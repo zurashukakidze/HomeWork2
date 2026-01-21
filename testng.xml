@@ -2,8 +2,8 @@
 <suite name="ParallelTestSuite" parallel="classes" thread-count="2">
     <test name="FormAndAlertTests">
         <classes>
-            <class name="FormTests" />
-            <class name="AlertTests" />
+            <class name="Form.FormTests" />
+            <class name="Alerts.AlertTests" />
         </classes>
     </test>
 </suite>
